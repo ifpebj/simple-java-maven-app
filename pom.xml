@@ -58,10 +58,9 @@
               <goal>enforce</goal>
             </goals>
             <configuration>
-              <encoding>UTF-8</encoding>
               <rules>
                 <requireMavenVersion>
-                  <version>3.8.7</version>
+                  <version>[3.8.6,)</version>
                 </requireMavenVersion>
                 <requireJavaVersion>
                   <version>[11,)</version>
